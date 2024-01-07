@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app1/css/home.css' %}">
+</head>
+<body>
+  <div class="container item-center">
+    <p>
+        <pre style=" color: white;
+        font-size: 30px;
+        font-weight:bolder;
+        text-align: center; font-family: Arial Black sans-serif;">
+        "Unlike all the other books that start at the beginning,at this one
+         wiil get you to the good stuff, fast, jennifer will explain every 
+         step you need, including some very advanced concepts."
+        </pre>
+    </p>
+    <div style="margin-top:0px">
+    <pre style=" color:white; font-size: 90px; border:0.4px solid white;width:800px;
+    font-family: Arial Black sans-serif;padding-right:50px;padding-left:0;margin-left:290px; height:250px;
+    font-weight: bolder;   border-radius: 10px; background-color: transparent; padding-top:10px;
+    backdrop-filter: blur(10px);">
+    Read the 
+    Django Concepts
+    </pre>
+</div>
+
+
+    <div style="padding-left:600px;">
+        <button style="padding:5px 10px;background-color:blue;
+        color:white;border-radius:5px;cursor:pointer;border:none">
+            <a style="text-decoration:none;color:white; font-size:25px;font-style: unset;font-weight: bold;" href="{% url 'signup' %}">Signup</a></button>
+        <button  style="padding:5px 10px;background-color:red;
+        color:white;border-radius:5px;cursor:pointer;border:none
+        ">
+        <a style="text-decoration:none;color:white; font-size:25px;font-style: unset;font-weight: bold;" href="{% url 'login' %}">Login</a></button> 
+
+    </div>
+    
+</div>
+      
+   
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+    background-image: url('../image/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.foo{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px transparent solid;
+    width: 500px;
+}
+
+.foo a,p{
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: initial;
+    color:rgb(146, 130, 102);
+}
+.cls{
+    padding-left: 560px;
+}
+.cls h1{
+    color: white;
+    padding-left: 320px;
+}
+
+.cls li{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(2.5px);
+    width: 700px;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 4px;
+
+}
+.cls ul{
+    list-style-type: none;
+}
+.cla{
+    border: 2px solid white;
+}
